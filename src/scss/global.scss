@@ -1,0 +1,14 @@
+.container {
+  width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @include breakpoint-mf("my-s") {
+    max-width: 788px;
+  }
+  @include breakpoint-mf("my-m") {
+    max-width: 1220px;
+  }
+}

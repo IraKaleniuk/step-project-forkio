@@ -64,6 +64,7 @@
       color: #FFFFFF;
     }
   }
+
   @include breakpoint-mf("my-m") {
     margin-right: auto;
   }
@@ -166,6 +167,7 @@
   &:hover {
     color: #FFFFFF;
   }
+
   @include breakpoint("my-s") {
     font-weight: 400;
     color: #FFFFFF;
@@ -287,4 +289,77 @@
   @include breakpoint-mf("my-s") {
     height: 800px;
   }
+}
+
+//----------body----------
+.header__body {
+  margin-top: 80px;
+  font-family: $main-font;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-mf("my-s") {
+    margin-top: 100px;
+  }
+}
+
+.header__title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include breakpoint-mf("my-s") {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  @include breakpoint-mf("my-m") {
+    font-size: 82px;
+    line-height: 82px;
+  }
+}
+
+.header__subtitle {
+  color: $accent-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include breakpoint-mf("my-s") {
+    font-family: $secondary-font;
+    max-width: 713px;
+    font-size: 18px;
+  }
+  @include breakpoint-mf("sm") {
+    font-size: 24px;
+  }
+  @include breakpoint-mf("my-m") {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.header__text {
+  color: #848E97;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include breakpoint-mf("my-m") {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
 }

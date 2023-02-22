@@ -27,7 +27,6 @@
   }
 }
 
-
 //----------container----------
 .header__container {
   padding-top: 32px;
@@ -80,6 +79,12 @@
     z-index: 3;
   }
 
+  &:hover {
+    .header__logo-img--hover {
+      display: block;
+    }
+  }
+
   &--hover {
     position: absolute;
     top: 0;
@@ -128,7 +133,6 @@
       visibility: visible;
     }
   }
-
   @include breakpoint-mf("my-s") {
     z-index: 3;
     position: absolute;
@@ -197,8 +201,9 @@
   }
 }
 
-.header__buy-btn {
+.header__btn {
   color: #FFFFFF;
+  border: 1px solid $accent-color;
   font-family: $main-font;
   font-weight: 700;
   font-size: 15px;
@@ -219,9 +224,26 @@
     position: relative;
     z-index: 3;
   }
-
   @include breakpoint-mf("my-s") {
     width: 145px;
+  }
+
+  &--download {
+    display: block;
+    width: 290px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 12px 29px;
+
+    @include breakpoint-mf("my-s") {
+      width: 390px;
+      font-size: 21px;
+      line-height: 23px;
+      padding: 19px 61px;
+    }
+    //@include breakpoint-mf("my-m") {
+    //  width: 145px;
+    //}
   }
 }
 
@@ -279,18 +301,6 @@
   }
 }
 
-//----------background-img----------
-.header__background-img {
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  height: 718px;
-
-  @include breakpoint-mf("my-s") {
-    height: 800px;
-  }
-}
-
 //----------body----------
 .header__body {
   margin-top: 80px;
@@ -301,6 +311,7 @@
   gap: 19px;
   justify-content: center;
   align-items: center;
+  user-select: none;
 
   @include breakpoint-mf("my-s") {
     margin-top: 100px;
@@ -357,9 +368,32 @@
   margin-top: 0;
   margin-bottom: 0;
 
+  &--without-text-transform {
+    font-family: $main-font;
+    text-transform: unset;
+    line-height: 16px;
+  }
+
   @include breakpoint-mf("my-m") {
     font-size: 16px;
     line-height: 16px;
   }
+}
 
+//----------footer----------
+.header__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  position: absolute;
+  top: calc(100% - 44px / 2);
+  left: calc(50% - 290px / 2);
+  user-select: none;
+
+  @include breakpoint-mf("my-s") {
+    gap: 19px;
+    top: calc(100% - 61px / 2);
+    left: calc(50% - 390px / 2);
+  }
 }

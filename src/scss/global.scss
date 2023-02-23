@@ -4,20 +4,11 @@
 	font-weight: 400;
 }
 .container {
-<<<<<<< HEAD
 	max-width: 340px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 10px;
 	padding-right: 10px;
-	overflow: hidden;
-=======
-  max-width: 340px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
->>>>>>> develop
 
 	@include breakpoint-mf("my-s") {
 		max-width: 768px;

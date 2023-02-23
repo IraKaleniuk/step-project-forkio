@@ -1,10 +1,11 @@
 .present {
+	margin-top: 130px;
+	padding-bottom: 90px;
 }
 .container {
 }
 .present__title {
-	font-family: "Montserrat";
-	font-style: normal;
+	font-family: $main-font;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 28px;
@@ -21,8 +22,7 @@
 	}
 }
 .present__text {
-	font-family: "Lato";
-	font-style: normal;
+	font-family: $secondary-font;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
@@ -30,13 +30,18 @@
 	color: #323232;
 	margin-top: 30px;
 	margin-bottom: 35px;
+	max-width: 270px;
+	margin-left: auto;
+	margin-right: auto;
 	@include breakpoint-mf("my-s") {
 		margin-bottom: 25px;
 		font-size: 21px;
 		line-height: 32px;
+		max-width: 690px;
 	}
 	@include breakpoint-mf("my-m") {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
+		max-width: 880px;
 	}
 }
 .buttons-wrap {

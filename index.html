@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="UTF-8">
 	<title>Forkio</title>
 	<link rel="stylesheet" href="./dist/css/style.min.css">
@@ -11,11 +12,60 @@
 		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@400;700&display=swap"
 		rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 </head>
 
 <body>
 	<div class="wrap">
 		<header class="header">
+			<div class="container header__container">
+				<nav class="header__navbar">
+					<a href="#" class="header__logo">
+						<div class="header__logo-wrap">
+							<img class="header__logo-img" src="./dist/img/header/logo.png" alt="">
+							<img class="header__logo-img--hover" src="./dist/img/header/logo-hover.png" alt="">
+						</div>
+						<p class="header__logo-text">ForkIO</p>
+					</a>
+					<ul class="header__menu">
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">
+								Overview
+							</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">
+								About Fork
+							</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">
+								Buying Options
+							</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="header__menu-link">
+								Support
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="header__btn--buy header__btn">Buy Now</a>
+					<button class="header__burger" type="button">
+						<span class="header__burger-span"></span>
+						<span class="header__burger-span"></span>
+						<span class="header__burger-span"></span>
+					</button>
+				</nav>
+				<div class="header__body">
+					<p class="header__title">Fork App</p>
+					<p class="header__subtitle">A real gamechanger in the world of web development</p>
+					<p class="header__text">v. 2.8 For Mac and Windows</p>
+				</div>
+				<div class="header__footer">
+					<a class="header__btn--download header__btn" href="#">Download For Free Now</a>
+					<p class="header__text header__text--without-text-transform">Unlimited 30-Days Trial Period</p>
+				</div>
+			</div>
 		</header>
 		<main class="main">
 			<section class="present">
@@ -75,6 +125,7 @@
 		</main>
 	</div>
 	<script src="./dist/js/scripts.min.js"></script>
+
 </body>
 
 </html>

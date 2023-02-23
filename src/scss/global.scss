@@ -11,7 +11,7 @@
 	padding-right: 10px;
 
 	@include breakpoint-mf("my-s") {
-		max-width: 788px;
+		max-width: 768px;
 	}
 	@include breakpoint-mf("my-m") {
 		max-width: 1220px;

@@ -1,0 +1,43 @@
+.features {
+}
+.container {
+}
+.features__title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #8d81ac;
+}
+.features__benefits {
+	// display: flex;
+	// flex-direction: column;
+}
+.benefit {
+	padding: 0;
+}
+.benefit__item {
+	list-style-type: none;
+}
+.benefite__image {
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+.benefite__title {
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #323232;
+	margin-bottom: 15px;
+}
+.benefite__subtitle {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #848e97;
+}

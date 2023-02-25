@@ -2,6 +2,7 @@
 	font-family: "Montserrat", sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	background: #4b3b4e;
 }
 .container {
 	max-width: 340px;
@@ -9,9 +10,10 @@
 	margin-left: auto;
 	padding-left: 10px;
 	padding-right: 10px;
+	overflow-x: hidden;
 
 	@include breakpoint-mf("my-s") {
-		max-width: 768px;
+		max-width: 788px;
 	}
 	@include breakpoint-mf("my-m") {
 		max-width: 1220px;

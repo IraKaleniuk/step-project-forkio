@@ -10,7 +10,7 @@
 	margin-left: auto;
 	padding-left: 10px;
 	padding-right: 10px;
-	overflow-x: hidden;
+	overflow: hidden;
 
 	@include breakpoint-mf("my-s") {
 		max-width: 788px;

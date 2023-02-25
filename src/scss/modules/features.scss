@@ -119,22 +119,12 @@
 	}
 }
 .features__image {
-	position: absolute;
-	right: 0;
-
-	@include breakpoint-mf("my-s") {
-		position: absolute;
-		right: 0;
-	}
+	position: relative;
 	@include breakpoint-mf("my-m") {
-		position: relative;
 		top: 80px;
 	}
 }
 .features__image--main {
-	// display: block;
-	// max-width: 100%;
-	// height: auto;
-	// margin-left: auto;
-	// margin-right: auto;
+	display: block;
+	margin-left: auto;
 }

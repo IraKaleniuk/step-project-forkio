@@ -1,9 +1,6 @@
 .features {
 	position: relative;
 	background-color: #fff;
-	@include breakpoint-mf("my-s") {
-		//padding-bottom: 519px;
-	}
 	@include breakpoint-mf("my-m") {
 		background-color: #f4f4f4;
 		padding-top: 65px;

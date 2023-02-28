@@ -31,17 +31,18 @@
 	color: $color2;
 	margin-top: 30px;
 	margin-bottom: 35px;
-	max-width: 270px;
+	padding-right: 15px;
+	padding-left: 15px;
 	@include magrin-center;
 	@include breakpoint-mf("my-s") {
 		margin-bottom: 25px;
 		font-size: 21px;
 		line-height: 32px;
-		max-width: 690px;
 	}
 	@include breakpoint-mf("my-m") {
 		margin-bottom: 15px;
-		max-width: 880px;
+		padding-right: 160px;
+		padding-left: 160px;
 	}
 }
 .buttons-wrap {

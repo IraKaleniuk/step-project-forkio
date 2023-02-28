@@ -64,6 +64,12 @@
 .benefit__text-container {
 	align-self: center;
 	@include magrin-center;
+	// padding-right: 9px;
+	// padding-left: 9px;
+	// @include breakpoint-mf("my-m") {
+	// 	padding-right: 50px;
+	// 	padding-left: 50px;
+	// }
 }
 
 .benefite__title {
@@ -85,6 +91,8 @@
 	text-align: center;
 	color: #848e97;
 	max-width: 270px;
+	// padding-right: 15px;
+	// padding-left: 15px;
 	@include magrin-center;
 	@include breakpoint-mf("my-s") {
 		text-align: left;

@@ -9,7 +9,6 @@
 	@include magrin-center;
 	padding-left: 10px;
 	padding-right: 10px;
-
 	@include breakpoint-mf("my-s") {
 		max-width: 788px;
 	}

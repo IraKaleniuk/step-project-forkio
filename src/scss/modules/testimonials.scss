@@ -19,7 +19,6 @@
 	}
 }
 .title {
-	font-family: $main-font;
 	font-weight: 700;
 	font-size: calc(28px + 20 * (100vw - 320px) / 880);
 	line-height: 42px;
@@ -87,8 +86,8 @@
 	font-family: $secondary-font;
 	font-style: italic;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: $fs_main_big;
+	line-height: $l-h_main_big;
 	max-width: 245px;
 
 	@include breakpoint-mf("my-s") {
@@ -98,7 +97,7 @@
 
 .testimonials__footer-text {
 	font-family: $secondary-font;
-	font-size: 14px;
+	font-size: $fs_main_small;
 	line-height: 21px;
 	color: #a291a5;
 	max-width: 251px;

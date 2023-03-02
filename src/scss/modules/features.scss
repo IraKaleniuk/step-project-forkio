@@ -73,8 +73,8 @@
 }
 
 .benefite__title {
-	font-size: 16px;
-	line-height: 16px;
+	font-size: $fs_main_small;
+	line-height: $l-h_main_small;
 	text-align: center;
 	color: $color2;
 	margin-bottom: 15px;
@@ -86,7 +86,7 @@
 
 .benefite__subtitle {
 	font-family: $secondary-font;
-	font-size: 14px;
+	font-size: $fs_main_small;
 	line-height: 21px;
 	text-align: center;
 	color: #848e97;

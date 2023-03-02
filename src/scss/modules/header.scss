@@ -97,7 +97,7 @@
 	font-family: $secondary-font;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 16px;
+	line-height: $l-h_main_small;
 	text-transform: uppercase;
 
 	color: $accent-color;
@@ -161,7 +161,7 @@
 .header__menu-link {
 	font-family: $main-font;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: $fs_main_big;
 	line-height: 18px;
 	color: $accent-color;
 

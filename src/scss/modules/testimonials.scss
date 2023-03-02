@@ -18,25 +18,35 @@
 		padding-top: 108px;
 	}
 }
-
-.testimonials__title {
+.title {
+	font-family: $main-font;
 	font-weight: 700;
-	font-size: 36px;
-	line-height: 48px;
+	font-size: calc(28px + 20 * (100vw - 320px) / 880);
+	line-height: 42px;
+	color: #ffffff;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.testimonials__title {
+	// font-weight: 700;
+	// font-size: 36px;
+	// line-height: 48px;
+	// font-size: calc(28px + 20 * (100vw - 320px) / 880);
+	// line-height: 42px;
+	// margin-top: 0;
+	// margin-bottom: 0;
 
 	@include breakpoint-mf("my-s") {
-		font-size: 42px;
-		line-height: 44px;
+		// font-size: 42px;
+		// line-height: 44px;
 	}
 	@include breakpoint("md") {
 		max-width: 450px;
 		@include magrin-center;
 	}
 	@include breakpoint-mf("my-m") {
-		font-size: 48px;
-		line-height: 50px;
+		// font-size: 48px;
+		// line-height: 50px;
 	}
 }
 

@@ -10,8 +10,7 @@
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 28px;
-	text-transform: uppercase;
-	text-align: center;
+	@include text_c_upper;
 	color: #635c73;
 	@include breakpoint-mf("my-s") {
 		font-size: 42px;

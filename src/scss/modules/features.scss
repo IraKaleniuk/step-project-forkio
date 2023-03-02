@@ -112,7 +112,8 @@
 
 .features__title {
 	font-weight: 700;
-	font-size: 32px;
+	// font-size: 48px;
+	font-size: calc(32px + 16 * (100vw - 320px) / 880);
 	line-height: 38px;
 	text-align: center;
 	color: $accent-color;

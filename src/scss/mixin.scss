@@ -36,3 +36,8 @@ $grid-breakpoints: (
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@mixin text_c_upper {
+	text-align: center;
+	text-transform: uppercase;
+}

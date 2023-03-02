@@ -23,14 +23,6 @@
 .pricing__container {
 	max-width: 1220px;
 }
-.title {
-	font-weight: 700;
-	font-size: calc(28px + 20 * (100vw - 320px) / 880);
-	line-height: 42px;
-	color: #ffffff;
-	margin-top: 0;
-	margin-bottom: 0;
-}
 .pricing__title {
 	text-align: center;
 	margin-bottom: 30px;
@@ -114,7 +106,7 @@
 
 .pricing__name {
 	font-size: 24px;
-	line-height: $l-h_main_big;
+	line-height: $ln-medium;
 	@include text_c_upper;
 	color: #ffffff;
 	background-color: rgba(255, 255, 255, 0.06);
@@ -135,8 +127,8 @@
 	}
 }
 .pricing__period {
-	font-size: $fs_main_small;
-	line-height: $l-h_main_small;
+	font-size: $fs-small;
+	line-height: $ln-small;
 	@include text_c_upper;
 	margin-bottom: 100px;
 	color: #ffffff;
@@ -155,7 +147,7 @@
 	}
 }
 .pricing__benefits {
-	font-size: $fs_main_big;
+	font-size: $fs-medium;
 	line-height: 28px;
 	text-align: center;
 	color: #ffffff;
@@ -170,7 +162,7 @@
 }
 .pricing__button {
 	display: block;
-	@include magrin-center;
+	@include margin-center;
 	font-size: 15px;
 	line-height: 15px;
 	@include text_c_upper;

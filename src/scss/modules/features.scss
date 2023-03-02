@@ -50,12 +50,12 @@
 .benefit__image-container {
 	width: 150px;
 	height: auto;
-	@include magrin-center;
+	@include margin-center;
 }
 
 .benefite__image {
 	display: block;
-	@include magrin-center;
+	@include margin-center;
 	margin-top: 35px;
 	margin-bottom: 25px;
 	object-fit: contain;
@@ -63,18 +63,12 @@
 
 .benefit__text-container {
 	align-self: center;
-	@include magrin-center;
-	// padding-right: 9px;
-	// padding-left: 9px;
-	// @include breakpoint-mf("my-m") {
-	// 	padding-right: 50px;
-	// 	padding-left: 50px;
-	// }
+	@include margin-center;
 }
 
 .benefite__title {
-	font-size: $fs_main_small;
-	line-height: $l-h_main_small;
+	font-size: $fs-small;
+	line-height: $ln-small;
 	text-align: center;
 	color: $color2;
 	margin-bottom: 15px;
@@ -86,14 +80,12 @@
 
 .benefite__subtitle {
 	font-family: $secondary-font;
-	font-size: $fs_main_small;
+	font-size: $fs-small;
 	line-height: 21px;
 	text-align: center;
 	color: #848e97;
 	max-width: 270px;
-	// padding-right: 15px;
-	// padding-left: 15px;
-	@include magrin-center;
+	@include margin-center;
 	@include breakpoint-mf("my-s") {
 		text-align: left;
 		font-family: $main-font;
@@ -111,8 +103,6 @@
 }
 
 .features__title {
-	font-weight: 700;
-	// font-size: 48px;
 	font-size: calc(32px + 16 * (100vw - 320px) / 880);
 	line-height: 38px;
 	text-align: center;

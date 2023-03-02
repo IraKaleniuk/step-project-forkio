@@ -16,3 +16,12 @@
 		max-width: 1220px;
 	}
 }
+
+.section-title {
+	font-weight: 700;
+	font-size: calc(28px + 20 * (100vw - 320px) / 880);
+	line-height: 42px;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 0;
+}

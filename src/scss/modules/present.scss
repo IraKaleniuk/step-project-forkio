@@ -6,8 +6,6 @@
 .container {
 }
 .present__title {
-	font-family: $main-font;
-	font-weight: 700;
 	font-size: 26px;
 	line-height: 28px;
 	@include text_c_upper;
@@ -24,7 +22,7 @@
 .present__text {
 	font-family: $secondary-font;
 	font-weight: 400;
-	font-size: $fs_main_small;
+	font-size: $fs-small;
 	line-height: 20px;
 	text-align: center;
 	color: $color2;
@@ -32,7 +30,7 @@
 	margin-bottom: 35px;
 	padding-right: 15px;
 	padding-left: 15px;
-	@include magrin-center;
+	@include margin-center;
 	@include breakpoint-mf("my-s") {
 		margin-bottom: 25px;
 		font-size: 21px;
